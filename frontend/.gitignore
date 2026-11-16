@@ -1,0 +1,5 @@
+node_modules/
+.nm_trash*/
+dist/
+output/
+test-results/

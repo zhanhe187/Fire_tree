@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="非遗图谱">
+  <rect width="64" height="64" rx="12" fill="#120f0c"/>
+  <path d="M32 8 48 17v19c0 9.5-6.8 16.8-16 20-9.2-3.2-16-10.5-16-20V17L32 8Z" fill="#a9362a" stroke="#d8aa54" stroke-width="2.5"/>
+  <path d="M21 34c7-12 14-12 22 0M24 25h16M28 18v28M36 18v28" fill="none" stroke="#f8ead8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="4" fill="#d8aa54"/>
+</svg>

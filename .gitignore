@@ -1,0 +1,44 @@
+# Local credentials (keep templates)
+.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated builds
+frontend/node_modules/
+frontend/.nm_trash*/
+frontend/dist/
+backend/target/
+ai-workspace/build/
+ai-workspace/artifacts/
+
+# Python / test outputs
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+**/test-results/
+**/playwright-report/
+tools/thesis/*.class
+
+# Workstation configuration
+.idea/
+.vscode/
+.playwright-cli/
+
+# Editor leftovers
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*~
+
+# Word/Office lock files
+~$*.docx
+~$*.doc
+
+# Local AI tooling artifacts
+.workbuddy/
+ai-workspace/
+audit_out/
+PROJECT_MEMORY.md

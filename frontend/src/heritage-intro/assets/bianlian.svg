@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#cdefff"/><stop offset=".5" stop-color="#37a9ff"/><stop offset="1" stop-color="#08334c"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-opacity=".25"/></filter></defs>
+  <rect width="900" height="560" fill="#e3f3ff"/>
+  <circle cx="220" cy="150" r="190" fill="#ffd45d" opacity=".42"/>
+  <g stroke="#fff" stroke-width="5" opacity=".45" fill="none"><path d="M660 30 C570 150 570 290 660 430"/><path d="M760 20 C650 166 650 310 760 500"/></g>
+  <g filter="url(#s)" transform="translate(230 80)">
+    <path d="M108 375 C70 305 72 202 126 128 C191 38 333 19 428 92 C526 168 545 313 469 407 C386 510 173 493 108 375Z" fill="url(#g)"/>
+    <path d="M156 329 C211 372 318 384 404 323" stroke="#fff" stroke-width="34" fill="none" stroke-linecap="round"/>
+    <path d="M176 165 C237 113 334 118 389 180" stroke="#fff" stroke-width="38" fill="none" stroke-linecap="round"/>
+    <path d="M204 238 L352 238" stroke="#08334c" stroke-width="28" stroke-linecap="round"/>
+    <circle cx="237" cy="238" r="17" fill="#fff"/><circle cx="322" cy="238" r="17" fill="#fff"/>
+  </g>
+  <text x="48" y="480" font-family="Microsoft YaHei" font-size="54" font-weight="900" fill="#071827">川剧变脸</text>
+  <text x="52" y="522" font-family="Microsoft YaHei" font-size="24" fill="#14364c">瞬息切换，巴蜀戏曲的视觉张力</text>
+</svg>

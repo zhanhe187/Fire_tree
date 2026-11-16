@@ -1,0 +1,59 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    import:
+      - optional:file:.env[.properties]
+      - optional:file:backend/.env[.properties]
+  application:
+    name: heritage-graph-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/heritage_graph?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    time-zone: Asia/Shanghai
+    default-property-inclusion: non_null
+  servlet:
+    multipart:
+      max-file-size: ${HERITAGE_MULTIPART_MAX_FILE_SIZE:8MB}
+      max-request-size: ${HERITAGE_MULTIPART_MAX_REQUEST_SIZE:10MB}
+  mail:
+    host: ${QQ_MAIL_HOST:smtp.qq.com}
+    port: ${QQ_MAIL_PORT:465}
+    username: ${QQ_MAIL_USERNAME:}
+    password: ${QQ_MAIL_AUTH_CODE:}
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+
+heritage:
+  ai:
+    api-key: ${HERITAGE_AI_API_KEY:}
+    base-url: ${HERITAGE_AI_BASE_URL:}
+    model: ${HERITAGE_AI_MODEL:}
+    timeout-seconds: ${HERITAGE_AI_TIMEOUT_SECONDS:10}
+  auth:
+    token-secret: ${HERITAGE_AUTH_TOKEN_SECRET:fire-tree-local-development-secret}
+    captcha-ttl-seconds: ${HERITAGE_AUTH_CAPTCHA_TTL_SECONDS:300}
+    email-code-ttl-seconds: ${HERITAGE_AUTH_EMAIL_CODE_TTL_SECONDS:600}
+    debug-code-enabled: ${HERITAGE_AUTH_DEBUG_CODE_ENABLED:false}
+  mail:
+    enabled: ${HERITAGE_MAIL_ENABLED:false}
+    from: ${HERITAGE_MAIL_FROM:${QQ_MAIL_USERNAME:}}
+  media:
+    upload-dir: ${HERITAGE_MEDIA_UPLOAD_DIR:D:/code/uploads/media}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

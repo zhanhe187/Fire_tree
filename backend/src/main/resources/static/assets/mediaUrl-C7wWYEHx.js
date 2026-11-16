@@ -1,0 +1,1 @@
+function i(r){const t=(r==null?void 0:r.trim().replace(/\\/g,"/"))??"";return t?/^(?:[a-z][a-z\d+\-.]*:)?\/\//i.test(t)||t.startsWith("data:")||t.startsWith("blob:")||t.startsWith("/")?t:`/${t}`:""}export{i as r};

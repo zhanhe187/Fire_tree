@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#faf6e8"/><stop offset="1" stop-color="#e1b65f"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-opacity=".22"/></filter></defs>
+  <rect width="900" height="560" fill="#f9efd8"/>
+  <path d="M0 380 C180 320 350 420 520 330 C660 255 760 260 900 210 L900 560 L0 560Z" fill="#c49642" opacity=".22"/>
+  <g filter="url(#s)" transform="translate(210 78)">
+    <rect x="60" y="80" width="420" height="300" rx="32" fill="url(#g)"/>
+    <g stroke="#7b4c1e" stroke-width="8" opacity=".75">
+      <path d="M120 120 L420 120"/><path d="M120 170 L420 170"/><path d="M120 220 L420 220"/><path d="M120 270 L420 270"/><path d="M120 320 L420 320"/>
+      <path d="M150 102 L150 355"/><path d="M220 102 L220 355"/><path d="M290 102 L290 355"/><path d="M360 102 L360 355"/>
+    </g>
+    <path d="M138 284 C210 184 300 196 392 136" stroke="#c52c24" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M188 315 C262 260 313 275 394 220" stroke="#1f7c67" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="48" y="480" font-family="Microsoft YaHei" font-size="54" font-weight="900" fill="#15100b">苏州缂丝</text>
+  <text x="52" y="522" font-family="Microsoft YaHei" font-size="24" fill="#634a2d">通经断纬，一梭一线织成江南</text>
+</svg>

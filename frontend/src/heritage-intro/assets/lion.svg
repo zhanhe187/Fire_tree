@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff2b8"/><stop offset=".46" stop-color="#ff7044"/><stop offset="1" stop-color="#111"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-opacity=".28"/></filter></defs>
+  <rect width="900" height="560" fill="#fff1d9"/>
+  <circle cx="680" cy="160" r="260" fill="#ff3d2f" opacity=".18"/>
+  <g filter="url(#s)" transform="translate(165 70)">
+    <path d="M112 308 C69 226 98 126 180 75 C267 21 393 46 458 122 C535 212 515 340 421 401 C316 470 166 415 112 308Z" fill="url(#g)"/>
+    <path d="M180 177 C226 126 309 118 374 161" stroke="#fff" stroke-width="32" fill="none" stroke-linecap="round"/>
+    <path d="M170 298 C234 349 337 350 414 287" stroke="#fff" stroke-width="34" fill="none" stroke-linecap="round"/>
+    <circle cx="232" cy="230" r="24" fill="#111"/><circle cx="356" cy="226" r="24" fill="#111"/>
+    <path d="M272 257 C303 277 331 273 352 252" stroke="#111" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M96 164 L10 92 M455 128 L555 70" stroke="#ff3d2f" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <text x="48" y="480" font-family="Microsoft YaHei" font-size="54" font-weight="900" fill="#12100d">醒狮</text>
+  <text x="52" y="522" font-family="Microsoft YaHei" font-size="24" fill="#513024">鼓点腾跃，社区节庆的精神图腾</text>
+</svg>
